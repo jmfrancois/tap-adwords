@@ -10,7 +10,7 @@ setup(name='tap-adwords',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_adwords'],
       install_requires=[
-          'singer-python==5.1.5',
+          'singer-python==5.4.1',
           'requests==2.20.0',
           'googleads==13.0.0',
           'zeep==3.1.0', # googleads dependency, pinned to 3.1.0 (tested version)
